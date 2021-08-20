@@ -28,6 +28,7 @@ function App() {
         <Route exact path="/counter" component={Counter}/>
         <Route exact path="/user" component={User}/>
         <Route exact path ="/post" component={Post}/>
+        <Route exact path ="/main" component={Main}/>
       </Switch>
       </BrowserRouter>
     
